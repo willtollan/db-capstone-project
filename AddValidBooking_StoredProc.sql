@@ -1,3 +1,6 @@
+-- Create stored procedure, AddValidBooking, to allow users to add bookings if there are tables available. If a table is unavailable, the 
+-- transaction will rollback 
+
 USE LittleLemonDB;
 
 DELIMITER //
